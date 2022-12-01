@@ -75,3 +75,23 @@ NB: Before running any scripts please execute the command below for each respect
 		- you will need to execute the code below to test the script
 			./13-change_group
 
+	100-change_owner_and_group
+		- this script changes the owner to vincent and the goup owner to staff for all the files and directories in the working directory
+		- you will need to execute the code below to test the script
+			./100-change_owner_and_group
+
+	101-symbolic_link_permissions
+		- this script changes the owner and group owner of _hello to vincent and staff respectively
+		- you will need to execute the code below to test the script
+			./101-symbolic_link_permissions
+
+	102-if_only
+		- this script changes the owner of the file hello to betty only if it is owned by the user guillaume
+		- you will need to execute the code below to test the script
+			./102-if_only
+
+	103-Star_Wars
+		- this script will play the StarWars IV episode in the terminal
+		- you will need to execute the code below to test the script
+			./103-Star_Wars
+
