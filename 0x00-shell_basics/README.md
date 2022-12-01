@@ -120,3 +120,11 @@ NB: Before running any scripts please execute the command below for each respect
 		- you will need to execute teh code below to test the script
 			./103-commas
 
+	school.mgc
+		- this script will be used with the command file to detect School data files. School data files always contain the string SCHOOL at offset 0
+		- it is created before compilation with 
+			0 string SCHOOL School data
+			!:mime School
+		- it is compiled with the below
+			file -C -m school.mgc
+		
