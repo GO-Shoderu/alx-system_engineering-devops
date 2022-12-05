@@ -40,3 +40,8 @@ NB: Before running any scripts please execute the command below for each respect
                 - you will need to execute the code below to test the script
                         ./6-third_line
 
+	7-file
+                - this script writes Best School into a file \*\\'"Best School"\'\\*$\?\*\*\*\*\*:)
+                - you will need to execute the code below to test the script
+                        ./7-file
+
