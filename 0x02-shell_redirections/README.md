@@ -15,3 +15,8 @@ NB: Before running any scripts please execute the command below for each respect
 		- you will need to execute the code below to test the script 
 			./1-confused_smiley
 
+	2-hellofile
+		- this script displays the content of /etc/passwd file
+		- you will need to execute the code below to test the script
+                        ./2-hellofile
+
