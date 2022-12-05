@@ -35,3 +35,8 @@ NB: Before running any scripts please execute the command below for each respect
                 - you will need to execute the code below to test the script
                         ./5-firstlines
 
+	6-third_line
+                - this script displays the third lines of the content of iacta file
+                - you will need to execute the code below to test the script
+                        ./6-third_line
+
