@@ -25,3 +25,8 @@ NB: Before running any scripts please execute the command below for each respect
                 - you will need to execute the code below to test the script
                         ./3-twofiles
 
+	4-lastlines
+                - this script displays the last 10 lines of the content of /etc/passwd file
+                - you will need to execute the code below to test the script
+                        ./4-lastlines
+
