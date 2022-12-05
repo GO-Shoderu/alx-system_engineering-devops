@@ -20,3 +20,8 @@ NB: Before running any scripts please execute the command below for each respect
 		- you will need to execute the code below to test the script
                         ./2-hellofile
 
+	3-twofiles
+                - this script displays the content of /etc/passwd and /etc/hosts files simulteanously
+                - you will need to execute the code below to test the script
+                        ./3-twofiles
+
