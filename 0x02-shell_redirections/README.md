@@ -45,3 +45,22 @@ NB: Before running any scripts please execute the command below for each respect
                 - you will need to execute the code below to test the script
                         ./7-file
 
+	8-cwd_state
+                - this script writes into the file ls_cwd_content the result of the command ls -la. If the file ls_cwd_content already exists, it should be overwritten. If the file ls_cwd_content does not exist, it creates it.
+                - you will need to execute the code below to test the script
+                        ./8-cwd_state
+
+	9-duplicate_last_line
+                - this script duplicates the last line of the file iacta
+                - you will need to execute the code below to test the script
+                        ./9-duplicate_last_line
+
+	10-no_more_js
+                - this script deletes all the regular files (not the directories) with a .js extension that are present in the current directory and all its subfolders.
+                - you will need to execute the code below to test the script
+                        ./10-no_more_js
+
+	11-directories
+                - this script counts the number of directories and sub-directories in the current directory.
+                - you will need to execute the code below to test the script
+                        ./11-directories
