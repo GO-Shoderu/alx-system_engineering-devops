@@ -30,3 +30,8 @@ NB: Before running any scripts please execute the command below for each respect
                 - you will need to execute the code below to test the script
                         ./4-lastlines
 
+	5-firstlines
+                - this script displays the first 10 lines of the content of /etc/passwd file
+                - you will need to execute the code below to test the script
+                        ./5-firstlines
+
