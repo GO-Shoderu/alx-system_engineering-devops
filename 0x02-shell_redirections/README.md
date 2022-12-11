@@ -64,3 +64,79 @@ NB: Before running any scripts please execute the command below for each respect
                 - this script counts the number of directories and sub-directories in the current directory.
                 - you will need to execute the code below to test the script
                         ./11-directories
+
+	12-newest_files
+		- this script will display the 10 newest files in the current working directory.
+		- you will need to execute the code below to test the script 
+			./12-newest_files
+	
+	13-unique
+		- this script will take a list of words as input and print only words that appear exactly once.
+		- you will need to execute the code below to test the script
+			cat list | ./13-unique
+			
+	14-findthatword
+		- this script will display lines containing the pattern root from the file /etc/passwd
+		- you will need to execute the code blow to test the script
+			./14-findthatword
+			
+	15-countthatword
+		- this script will display the number of lines that contain the pattern "bin" in the file /etc/passwd
+		- you will need to execute the code blow to test the script
+			./15-countthatword
+			
+	16-whatsnext
+		- this script will display lines containing the pattern "root" and 3 lines after them in the file /etc/passwd
+		- you will need to execute the code blow to test the script
+			./16-whatsnext
+			
+	17-hidethisword
+		- this script will display all the lines in the file /etc/passwd that do not contain the pattern "bin"
+		- you will need to execute the code blow to test the script
+			./17-hidethisword
+	
+	18-letteronly
+		- this script will display all lines of the file /etc/ssh/sshd_config starting with a letter
+		- you will need to execute the code blow to test the script
+			./18-letteronly
+			
+	19-AZ
+		- this script will replace all characters A and c from input to z and e respectively
+		- you will need to execute the code blow to test the script
+			echo 'Replace all characters `A` and `c` from input to `Z` and `e`.' | ./19-AZ
+			
+	20-hiago
+		- this script will remove all letters c and C from input
+		- you will need to execute the code blow to test the script
+			echo Chicago | ./20-hiago 
+			
+	21-reverse
+		- this script will reverse it input
+		- you will need to execute the code blow to test the script
+			echo "Reverse" | ./21-reverse
+			
+	22-users_and_homes
+		- this script will display all users and their home directories and will be sorted by users
+		- you will need to execute the code blow to test the script
+			./22-users_and_homes
+			
+	100-empty_casks
+		- this script will find all empty files and directories in the curent directory and all subdirectories
+		- you will need to execute the code blow to test the script
+			./100-empty_casks
+			
+	101-gifs
+		- this script will list all the files with a .gif extension in the current directory and all its subdirectories
+		- you will need to execute the code blow to test the script
+			./101-gifs
+			
+	102-arcostic
+		- this script will decode arcostics that use the first letter of each line
+		- you will need to execute the code blow to test the script
+			./102-acrostic < An\ Acrostic 
+ELIZABETH
+
+	103-the_biggest_fan
+		- this script will pars webservers logs in TSV format as input and display the 11 hosts or IP addresses which did the most reqests
+		- you will need to execute the code blow to test the script
+			./103-the_biggest_fan < nasa_19950801.tsv 
