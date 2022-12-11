@@ -133,8 +133,7 @@ NB: Before running any scripts please execute the command below for each respect
 	102-arcostic
 		- this script will decode arcostics that use the first letter of each line
 		- you will need to execute the code blow to test the script
-			./102-acrostic < An\ Acrostic 
-ELIZABETH
+			./102-acrostic < An\ Acrostic ELIZABETH
 
 	103-the_biggest_fan
 		- this script will pars webservers logs in TSV format as input and display the 11 hosts or IP addresses which did the most reqests
